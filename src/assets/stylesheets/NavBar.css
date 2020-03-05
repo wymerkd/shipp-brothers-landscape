@@ -15,6 +15,7 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
   background-color: rgba(126, 104, 90, .7)!important;
   z-index:2;
 }
+/* end */
 
 /* navlink font styles  */
 .nav-link {
@@ -27,6 +28,7 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
   color: rgba(255, 255, 255, 1)!important;
   font-weight: bolder;
 }
+/* end */
 
 /* positions navbar links under phone number */
 #linkPosition {
@@ -35,6 +37,7 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
   top: 50%;
   transform: translateY(45%);
 }
+/* end */
 
 /* styles phone number and positions it above nav links*/
 #phoneStyles {
@@ -45,7 +48,7 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
   top: 50%;
   transform: translateY(-100%) translateX(258%);
 }
-
+/* end */
 
 /* styles font for shipp brothers logo and positions next to tree image logo */
 #brandLogo {
@@ -63,3 +66,25 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
   transform: translateY(27%) translateX(2%);
   word-spacing: none;
 }
+/* end */
+
+/* dropdown menus styles */
+.dropdown-menu {
+  background-color: rgba(103, 120, 100, .8);
+}
+
+.dropdown-item {
+  font-weight: bolder;
+  color: rgba(247, 249, 251, 0.8);
+}
+
+.dropdown-item:hover {
+  color: rgba(247, 249, 251, 1);
+  background-color: rgba(103, 120, 100, 1);
+  font-weight: bolder;
+}
+/* end */
+
+/* .navbar-toggler-icon {
+  color: white!important;
+} */

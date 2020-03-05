@@ -20,7 +20,7 @@ const NavBar = () => {
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#gallery">Gallery</Nav.Link>
             <NavDropdown title="Services" id="collapsible-nav-dropdown">
-              <NavDropdown.Item id="dropdownStyles" href="#custom-landscape-design">Custom Landscape Design</NavDropdown.Item>
+              <NavDropdown.Item href="#custom-landscape-design">Custom Landscape Design</NavDropdown.Item>
               <NavDropdown.Item href="#lawn-installation">Lawn Installation</NavDropdown.Item>
               <NavDropdown.Item href="#water-features">Water Features & Waterfalls</NavDropdown.Item>
               <NavDropdown.Item href="#retaining-walls">Retaining Walls & Steps</NavDropdown.Item>
