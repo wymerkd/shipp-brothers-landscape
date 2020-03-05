@@ -12,32 +12,39 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
   left:0px;
   width:100%;
   background: RGBA(0,0,0,0.0);
+  background-color: rgba(126, 104, 90, .7)!important;
   z-index:2;
 }
 
+/* navlink font styles  */
 .nav-link {
   font-size: 1.2em !important;
   color: rgba(255, 255, 255, 0.8)!important;
   font-weight: bolder;
 }
 
+.nav-link:hover {
+  color: rgba(255, 255, 255, 1)!important;
+  font-weight: bolder;
+}
+
+/* positions navbar links under phone number */
 #linkPosition {
   display: inline-flex;
   position: relative;
   top: 50%;
-  transform: translateY(40%);
+  transform: translateY(45%);
 }
 
+/* styles phone number and positions it above nav links*/
 #phoneStyles {
   font-size: 1.2em !important;
   color: rgba(255, 255, 255, 0.8)!important;
   font-weight: bolder;
   position: relative;
   top: 50%;
-  transform: translateY(-90%) translateX(258%);
+  transform: translateY(-100%) translateX(258%);
 }
-
-
 
 
 /* styles font for shipp brothers logo and positions next to tree image logo */
@@ -53,6 +60,6 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
   display: inline-flex;
   position: relative;
   top: 50%;
-  transform: translateY(30%) translateX(2%);
+  transform: translateY(27%) translateX(2%);
   word-spacing: none;
 }
