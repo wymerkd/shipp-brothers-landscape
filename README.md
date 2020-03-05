@@ -70,3 +70,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### Dependencies
 # _npm install --save react-router-dom_
+# _npm install bootstrap_
+# _npm install react-bootstrap_
