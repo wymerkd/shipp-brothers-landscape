@@ -72,3 +72,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 # _npm install --save react-router-dom_
 # _npm install bootstrap_
 # _npm install react-bootstrap_
+
+
+#677864 Green rgba(103, 120, 100, 1)
+#31708E Dark Blue rgba(49, 112, 142, 1)
+#5085A5 Middle Blue rgba(80, 133, 165, 1)
+#8FC1E3 Light Blue rgba(143, 193, 227, 1)
+#F7F9FB Whiteish rgba(247, 249, 251, 1)

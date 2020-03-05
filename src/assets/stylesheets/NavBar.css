@@ -1,0 +1,58 @@
+@font-face {
+font-family: 'Playbill';
+font-style: normal;
+font-weight: normal;
+src: local('Playbill'), url('Playbill.woff') format('woff');
+}
+
+/* sets navbar overlaying carousel with transparent background */
+#navStyles {
+  position: absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  background: RGBA(0,0,0,0.0);
+  z-index:2;
+}
+
+.nav-link {
+  font-size: 1.2em !important;
+  color: rgba(255, 255, 255, 0.8)!important;
+  font-weight: bolder;
+}
+
+#linkPosition {
+  display: inline-flex;
+  position: relative;
+  top: 50%;
+  transform: translateY(40%);
+}
+
+#phoneStyles {
+  font-size: 1.2em !important;
+  color: rgba(255, 255, 255, 0.8)!important;
+  font-weight: bolder;
+  position: relative;
+  top: 50%;
+  transform: translateY(-90%) translateX(258%);
+}
+
+
+
+
+/* styles font for shipp brothers logo and positions next to tree image logo */
+#brandLogo {
+  font-family: 'Playbill', sans-serif;
+  font-size: 2.5em;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-shadow: -2px 2px 1px rgba(163, 163, 163, 1);
+  color: red;
+ -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: white;
+  display: inline-flex;
+  position: relative;
+  top: 50%;
+  transform: translateY(30%) translateX(2%);
+  word-spacing: none;
+}

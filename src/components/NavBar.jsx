@@ -20,16 +20,16 @@ const NavBar = () => {
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#gallery">Gallery</Nav.Link>
             <NavDropdown title="Services" id="collapsible-nav-dropdown">
-              <NavDropdown.Item id="huh" href="#action/3.1">Custom Landscape Design</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Lawn Installation</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Water Features & Waterfalls</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Retaining Walls & Steps</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Lighting</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Bark Blowing</NavDropdown.Item>
+              <NavDropdown.Item id="dropdownStyles" href="#custom-landscape-design">Custom Landscape Design</NavDropdown.Item>
+              <NavDropdown.Item href="#lawn-installation">Lawn Installation</NavDropdown.Item>
+              <NavDropdown.Item href="#water-features">Water Features & Waterfalls</NavDropdown.Item>
+              <NavDropdown.Item href="#retaining-walls">Retaining Walls & Steps</NavDropdown.Item>
+              <NavDropdown.Item href="#lighting">Lighting</NavDropdown.Item>
+              <NavDropdown.Item href="#bark-blowing">Bark Blowing</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#gallery">Lawn Care Guide</NavDropdown.Item>
+              <NavDropdown.Item href="#lawn-care-guide">Lawn Care Guide</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#/">Nursery Stock</Nav.Link>
+            <Nav.Link href="#nursery-stock">Nursery Stock</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
