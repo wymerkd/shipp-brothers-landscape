@@ -114,11 +114,10 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
     padding-top: 50px;
   }
 
-  /* #phoneNumber {
-    display: flex;
-    position: relative;
-    top: 20%;
-    transform: translateY(-70%) translateX(-20%);
-    z-index: 2;
-  } */
+  #phoneNumber {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-150%) translateX(200%);
+  }
 }
