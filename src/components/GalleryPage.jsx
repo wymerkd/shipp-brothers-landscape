@@ -6,6 +6,7 @@ const GalleryPage = () => {
   return(
     <div>
       <NavBar />
+      <GalleryMain />
     </div>
   );
 }

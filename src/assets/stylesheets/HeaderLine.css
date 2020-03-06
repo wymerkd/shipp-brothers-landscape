@@ -1,0 +1,17 @@
+.allHeader {
+  background-color: #687864;
+  padding-bottom: 3rem;
+}
+
+.header {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  color: rgba(247, 249, 251, 1);
+}
+
+.header hr {
+  border-top: 2px solid rgba(247, 249, 251, 1);
+  width: 95%;
+  margin-top: .3rem;
+}

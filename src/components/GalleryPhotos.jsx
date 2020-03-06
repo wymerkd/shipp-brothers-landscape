@@ -2,7 +2,7 @@ import React from 'react';
 
 export const photos = [
   {
-    src: "/images/galleryPhotos/shipp8.png",
+    src: "/images/galleryImages/shipp8.png",
     width: 4,
     height: 3,
     title: "yo"
