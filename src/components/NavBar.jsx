@@ -13,6 +13,8 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
+            <br></br>
+            <Nav.Item id="phoneNumber" href="#contact">Call Us (555) 555-5555</Nav.Item>
           </Nav>
           <Nav id="linkPosition">
             <Nav.Link className="nav-item active" href="#/">Home</Nav.Link>
@@ -30,7 +32,6 @@ const NavBar = () => {
             </NavDropdown>
             <Nav.Link href="#nursery-stock">Nursery Stock</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-            <Nav.Item id="phoneNumber" href="#contact">Call Us (555) 555-5555</Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

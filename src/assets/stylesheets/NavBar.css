@@ -105,7 +105,7 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 
 @media (max-width: 576px) {
   #brandLogo {
-    font-size: 230%;
+    font-size: 200%;
   }
 }
 
@@ -115,9 +115,9 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
   }
 
   #phoneNumber {
-    display: block;
     position: absolute;
-    top: 50%;
-    transform: translateY(-150%) translateX(200%);
+    top: 26px;
+    right: 24px;
+    font-size: 1rem;
   }
 }
