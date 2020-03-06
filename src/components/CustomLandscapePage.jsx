@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar'
-import GalleryHeader from './GalleryHeader'
+import CustomLandscapeHeader from './CustomLandscapeHeader'
 import '../assets/stylesheets/CustomLandscape.css';
 
 
@@ -8,7 +8,7 @@ const CustomLandscape= () => {
   return(
     <div>
       <NavBar />
-      <GalleryHeader />
+      <CustomLandscapeHeader />
       <div id="aboutUs">
         <div className="aboutShadow container-fluid padding">
           <div className="about row padding ">

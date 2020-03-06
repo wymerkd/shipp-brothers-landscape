@@ -68,7 +68,7 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 
 /* dropdown menus styles */
 .dropdown-menu {
-  background-color: rgba(247, 249, 251, .8);
+  background-color: rgba(247, 249, 251, .9);
 }
 
 .dropdown-item {

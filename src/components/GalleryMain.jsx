@@ -4,7 +4,7 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./GalleryPhotos";
 
-function GalleryMain() {
+const GalleryMain = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
@@ -19,7 +19,7 @@ function GalleryMain() {
   };
 
   return (
-    <div>
+    <div style={{backgroundColor:"#F7F9FB"}}>
       <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
