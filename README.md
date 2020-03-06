@@ -84,3 +84,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 #5085A5 Middle Blue rgba(80, 133, 165, 1)
 #8FC1E3 Light Blue rgba(143, 193, 227, 1)
 #F7F9FB Whiteish rgba(247, 249, 251, 1)
+
+## Shipp Brothers Landscape
+#### February 28, 2020
+
+
+|  Start Time | End Time | Task |
+|---|---|---|
+| 12:00 PM | 3:30 PM | Meet with client to go over updated content for website, received USB with website photos and videos |
