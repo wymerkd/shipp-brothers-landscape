@@ -74,6 +74,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 # _npm install react-bootstrap_
 <!-- for homepage slideshow -->
 # _npm install react-slideshow-image -S_
+<!-- for gallery page gallery -->
+# _npm install react-photo-gallery_
+# _npm install react-images_
 
 
 #677864 Green rgba(103, 120, 100, 1)

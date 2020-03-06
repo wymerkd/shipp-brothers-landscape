@@ -57,7 +57,7 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
   display: inline-flex;
   position: relative;
   top: 50%;
-  transform: translateY(27%) translateX(2%);
+  transform: translateY(27%) translateX(1%);
   word-spacing: none;
 }
 /* end */

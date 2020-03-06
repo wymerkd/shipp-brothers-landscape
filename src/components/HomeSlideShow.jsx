@@ -32,13 +32,13 @@ const HomeSlideShow = () => {
           <div className="image-container">
             <img src={fadeImages[1]} />
           </div>
-          <h2>Serving <br></br>Clark County<br></br> Since 1978</h2>
+          <h2>Proudly Serving <br></br>Clark County<br></br> Since 1978</h2>
         </div>
         <div className="each-fade">
           <div className="image-container">
             <img src={fadeImages[2]} />
           </div>
-          <h2>Award Winning <br></br> Landscape Design</h2>
+          <h2>Custom <br></br> Landscape <br></br>Design</h2>
         </div>
       </Fade>
     </div>
