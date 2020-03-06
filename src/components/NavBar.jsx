@@ -8,14 +8,13 @@ const NavBar = () => {
       <Navbar id="navStyles" collapseOnSelect expand="lg">
         <Navbar.Brand href="#/">
           <img className="img-fluid" src="/images/navImages/treeLogo.png" alt="fir tree busisness logo"></img>
-          <h1 id="brandLogo">SHIPP BROTHERS LANDSCAPE</h1>
+          <h1 id="brandLogo">SHIPP BROTHERS LANDSCAPE, INC.</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
           </Nav>
           <Nav id="linkPosition">
-            <p id="phoneStyles">Call Us (206) 661-2059</p>
             <Nav.Link className="nav-item active" href="#/">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#gallery">Gallery</Nav.Link>
@@ -34,6 +33,7 @@ const NavBar = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      <p id="phoneNumber">CALL US (555) 555-5555</p>
     </div>
   );
 }

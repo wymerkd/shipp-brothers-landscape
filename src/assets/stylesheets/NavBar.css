@@ -6,7 +6,7 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 }
 
 /* sets navbar overlaying carousel with transparent background */
-#navStyles {
+/* #navStyles {
   position: absolute;
   top:0px;
   left:0px;
@@ -14,46 +14,43 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
   background: RGBA(0,0,0,0.0);
   background-color: rgba(103, 120, 100, .7)!important;
   z-index:2;
-}
+} */
 /* end */
+
+#navStyles {
+  background-color: rgba(247, 249, 251, 1);
+  padding-bottom: 20px;
+}
 
 /* navlink font styles  */
 .nav-link {
   font-size: 1.2em !important;
-  color: rgba(255, 255, 255, 0.8)!important;
-  font-weight: bolder;
+  color: rgba(103, 120, 100, 1)!important;
 }
 
 .nav-link:hover {
-  color: rgba(255, 255, 255, 1)!important;
+  color: rgba(103, 120, 100, 1)!important;
   font-weight: bolder;
 }
 /* end */
 
 /* positions navbar links under phone number */
-#linkPosition {
+/* #linkPosition {
   display: inline-flex;
   position: relative;
   top: 50%;
   transform: translateY(45%);
-}
-/* end */
+} */
+/* end
 
 /* styles phone number and positions it above nav links*/
-#phoneStyles {
-  font-size: 1.2em !important;
-  color: rgba(255, 255, 255, 0.8)!important;
-  font-weight: bolder;
-  position: relative;
-  top: 50%;
-  transform: translateY(-100%) translateX(258%);
-}
+
 /* end */
 
 /* styles font for shipp brothers logo and positions next to tree image logo */
 #brandLogo {
   font-family: 'Playbill', sans-serif;
-  font-size: 2.5em;
+  font-size: 260%;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   text-shadow: -2px 2px 1px rgba(163, 163, 163, 1);
   color: red;
@@ -88,9 +85,40 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 
 /* not sure if this is going to work */
 .active {
-  color: rgba(255, 255, 255, 1)!important;
-  border-bottom: solid;
+  /* color: rgba(255, 255, 255, 1)!important; */
+  text-decoration: underline;
   border-color: rgba(103, 120, 100, 1);
   border-radius: 10px;
 }
 /* end */
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 576px) {
+  #brandLogo {
+    font-size: 230%;
+  }
+}
+
+@media (min-width: 576px) {
+  #linkPosition {
+    padding-top: 50px;
+  }
+
+  /* #phoneNumber {
+    display: flex;
+    position: relative;
+    top: 20%;
+    transform: translateY(-70%) translateX(-20%);
+    z-index: 2;
+  } */
+}

@@ -72,6 +72,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 # _npm install --save react-router-dom_
 # _npm install bootstrap_
 # _npm install react-bootstrap_
+<!-- for homepage slideshow -->
+# _npm install react-slideshow-image -S_
 
 
 #677864 Green rgba(103, 120, 100, 1)
