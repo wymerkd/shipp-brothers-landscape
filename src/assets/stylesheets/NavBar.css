@@ -62,6 +62,10 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 }
 /* end */
 
+#logoBreak {
+  display: none;
+}
+
 /* dropdown menus styles */
 .dropdown-menu {
   background-color: rgba(247, 249, 251, .8);
@@ -101,13 +105,26 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 
 @media (max-width: 576px) {
   #brandLogo {
-    font-size: 200%;
+    display: inline-flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(14%) translateX(2%);
+    word-spacing: none;
+  }
+
+  #logoBreak {
+    display: inherit;
   }
 }
 
 @media (min-width: 576px) {
   #linkPosition {
     padding-top: 50px;
+  }
+
+  .firstBreak:after {
+    content: '\A';
+    white-space: pre;
   }
 
   #phoneNumber {
