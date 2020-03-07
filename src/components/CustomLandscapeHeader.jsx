@@ -5,11 +5,10 @@ import '../assets/stylesheets/HeaderLine.css';
 const CustomLandscapeHeader = () => {
   return(
     <div className="allHeader">
-      <div className="container-fluid padding">
+      <div className="container-fluid">
         <div className="row header text-center">
           <div className="col-12">
             <h1 className="display-4">Custom Landscape Design</h1>
-            <br></br>
           </div>
         </div>
       </div>

@@ -1,7 +1,10 @@
 #aboutCards {
-  background-color: #31708E !important;
+  background-color: #5085A5!important;
   color: white;
-  padding: 3rem;
+  padding: 0 3rem 3rem 3rem;
+  border-bottom: 7px double white;
+  border-right: 7px double white;
+  border-left: 7px double white;
 }
 
 .card {
