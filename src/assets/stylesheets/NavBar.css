@@ -84,15 +84,6 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 /* end */
 
 
-/* not sure if this is going to work */
-.active {
-  /* color: rgba(255, 255, 255, 1)!important; */
-  text-decoration: underline;
-  border-color: rgba(103, 120, 100, 1);
-}
-/* end */
-
-
 /*---Media Queries --*/
 @media (max-width: 992px) {
 

@@ -3,7 +3,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Switch, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
-import AboutPage from './components/AboutPage';
 import GalleryPage from './components/GalleryPage';
 import CustomLandscapePage from './components/CustomLandscapePage';
 import LawnInstallationPage from './components/LawnInstallationPage';
@@ -21,7 +20,6 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path='/' component={HomePage} />
-        <Route exact path='/about' component={AboutPage} />
         <Route exact path='/gallery' component={GalleryPage} />
         <Route exact path='/custom-landscape-design' component={CustomLandscapePage} />
         <Route exact path='/lawn-installation' component={LawnInstallationPage} />

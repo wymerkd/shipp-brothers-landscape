@@ -18,7 +18,6 @@ const NavBar = () => {
           </Nav>
           <Nav id="linkPosition">
             <Nav.Link className="nav-item active" href="#/">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#gallery">Gallery</Nav.Link>
             <NavDropdown title="Services" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="#custom-landscape-design">Custom Landscape Design</NavDropdown.Item>
