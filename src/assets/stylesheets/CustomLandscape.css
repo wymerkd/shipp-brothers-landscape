@@ -3,7 +3,8 @@
 }
 
 .about {
-  background-color: #687864 !important;
+  /* background-color: #687864 !important; */
+  /* background-image: linear-gradient(to right bottom, #677864, #80988f, #a3b8b8, #cdd8dc, #f7f9fb); */
   color: white;
 }
 
