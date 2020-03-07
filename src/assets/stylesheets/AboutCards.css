@@ -1,0 +1,14 @@
+#aboutCards {
+  background-color: #31708E !important;
+  color: white;
+  padding: 3rem;
+}
+
+.card {
+  background-color: #F7F9FB;
+}
+
+.card-body {
+  background-color: #687864;
+  color: white;
+}

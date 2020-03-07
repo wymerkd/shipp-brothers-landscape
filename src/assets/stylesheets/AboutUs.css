@@ -1,10 +1,11 @@
-#aboutUs {
+/* #aboutUs {
   background-color: #F7F9FB;
-}
+} */
 
 .about {
   background-color: #687864 !important;
   color: white;
+  padding-top: 3rem;
 }
 
 .imageShadow {

@@ -8,7 +8,7 @@ const NavBar = () => {
       <Navbar id="navStyles" collapseOnSelect expand="lg">
         <Navbar.Brand href="#/">
           <img className="img-fluid" src="/images/navImages/treeLogo.png" alt="fir tree busisness logo"></img>
-          <h1 id="brandLogo">Shipp Brothers<br id="logoBreak"></br> Landscape, Inc.</h1>
+          <h1 id="brandLogo">SHIPP BROTHERS<br id="logoBreak"></br> LANDSCAPE, INC.</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

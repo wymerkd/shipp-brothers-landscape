@@ -5,8 +5,8 @@ const AboutUs = () => {
   return(
     <div>
       <div id="aboutUs">
-        <div className="aboutShadow container-fluid padding">
-          <div className="about row jumbotron padding ">
+        <div className="container-fluid">
+          <div className="about row">
             <div className="col-lg-6">
               <h2>Who We Are</h2>
               <p>Shipp Brothers is proud to display the largest nursery in all of Clark County. We have over 50 acres of field grown stock, and 10 green-houses full of beautiful, professionally maintained container stock.</p>
