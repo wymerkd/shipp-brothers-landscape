@@ -21,7 +21,7 @@ h3 {
   top: 50%;
   transform: translateY(-70%) translateX(20%);
   /* z-index: 999; */
-  color: white;
+  color: #F7F9FB;
   font-size: 500%;
   text-transform: uppercase;
   text-shadow: 1px 1px 15px #000;

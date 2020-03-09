@@ -8,19 +8,28 @@
   background-color: #5085A5!important;
 }
 
+.teamHeader {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  color: #F7F9FB;
+  text-shadow: 1px 1px 15px #000;
+}
+
 .header {
   width: 75%;
   margin: 0 auto;
   padding-top: 3.2rem;
-  color: #687864;
+  color: #F7F9FB;
 }
 
 .header h1 {
-  border: 7px double #687864;
+  /* border: 7px double #687864;
   border-radius: 10px;
   background-color: #F7F9FB;
-  padding: .5rem;
+  padding: .5rem; */
   font-size: 300%;
+  text-shadow: 1px 1px 15px #000;
 }
 
 .header hr {

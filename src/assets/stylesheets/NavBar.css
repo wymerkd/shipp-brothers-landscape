@@ -5,21 +5,10 @@ font-weight: normal;
 src: local('Playbill'), url('Playbill.woff') format('woff');
 }
 
-/* sets navbar overlaying carousel with transparent background */
-/* #navStyles {
-  position: absolute;
-  top:0px;
-  left:0px;
-  width:100%;
-  background: RGBA(0,0,0,0.0);
-  background-color: rgba(103, 120, 100, .7)!important;
-  z-index:2;
-} */
-/* end */
 
 #navStyles {
   background-color: rgba(247, 249, 251, 1);
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 /* navlink font styles  */

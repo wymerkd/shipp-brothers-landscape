@@ -1,7 +1,7 @@
 #aboutCards {
   background-color: #5085A5!important;
-  color: white;
-  padding: 3rem;
+  color: #F7F9FB;
+  padding: 2rem;
   /* border-bottom: 7px double white;
   border-right: 7px double white;
   border-left: 7px double white; */
@@ -9,11 +9,12 @@
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  border-color: #5085A5;
 }
 
 .card-body {
   background-color: #687864;
-  color: white;
+  color: #F7F9FB;
 }
 
 /*---Media Queries --*/
