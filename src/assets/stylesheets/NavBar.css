@@ -19,12 +19,9 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 }
 
 .nav-link:hover {
-  color: rgba(247, 249, 251, 1)!important;
-  background-color: rgba(103, 120, 100, 1);
-  font-weight: bold;
-  border-radius: 10px;
-}
-/* end */
+  color: black!important;
+} */
+/* end
 
 
 /* styles phone number */
