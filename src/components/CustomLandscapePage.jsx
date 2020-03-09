@@ -26,12 +26,12 @@ const CustomLandscape= () => {
               <br></br>
             </div>
             <div className="col-lg-6 columnPadding">
-              <img src="https://i.picsum.photos/id/1011/700/400.jpg" className="imageShadow img-fluid shadow-sm p-3 mb-5 rounded" alt="" />
+              <img src="https://i.picsum.photos/id/1011/700/400.jpg" className="imageShadow img-fluid mb-5 rounded" alt="" />
             </div>
           </div>
           <div className="service green row">
             <div className="col-lg-6 columnPadding">
-              <img src="https://i.picsum.photos/id/1011/700/400.jpg" className="imageShadow img-fluid shadow-sm p-3 mb-5 rounded" alt="" />
+              <img src="https://i.picsum.photos/id/1011/700/400.jpg" className="imageShadow img-fluid mb-5 rounded" alt="" />
             </div>
             <div className="col-lg-6 columnPadding">
               <h2>Who We Are</h2>
