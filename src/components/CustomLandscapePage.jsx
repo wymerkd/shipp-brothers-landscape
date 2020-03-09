@@ -4,7 +4,7 @@ import TreeBackgroundSecondary from './TreeBackgroundSecondary'
 import TreeBackgroundTop from './TreeBackgroundTop'
 import TreeBackgroundBottom from './TreeBackgroundBottom'
 import CustomLandscapeHeader from './CustomLandscapeHeader'
-import '../assets/stylesheets/CustomLandscape.css';
+import '../assets/stylesheets/Services.css';
 
 
 const CustomLandscape= () => {
