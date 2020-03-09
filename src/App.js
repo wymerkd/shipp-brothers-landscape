@@ -12,7 +12,6 @@ import LightingPage from './components/LightingPage';
 import BarkBlowingPage from './components/BarkBlowingPage';
 import LawnCarePage from './components/LawnCarePage';
 import NurseryStockPage from './components/NurseryStockPage';
-import ContactPage from './components/ContactPage';
 import Error404 from './components/Error404';
 
 function App() {
@@ -29,7 +28,6 @@ function App() {
         <Route exact path='/bark-blowing' component={BarkBlowingPage} />
         <Route exact path='/lawn-care-guide' component={LawnCarePage} />
         <Route exact path='/nursery-stock' component={NurseryStockPage} />
-        <Route exact path='/contact' component={ContactPage} />
         <Route component={Error404}/>
       </Switch>
     </div>

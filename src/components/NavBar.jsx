@@ -15,7 +15,7 @@ const NavBar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <br></br>
-            <Nav.Item id="phoneNumber" href="#contact">Call Us (555) 555-5555</Nav.Item>
+            <Nav.Item id="phoneNumber">Call Us (360) 887-8564</Nav.Item>
           </Nav>
           <Nav id="linkPosition">
             <Nav.Link className="nav-item active" href="#/">Home</Nav.Link>

@@ -20,13 +20,14 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 
 .nav-link:hover {
   color: black!important;
-} */
+}
 /* end
 
 
 /* styles phone number */
   #phoneNumber {
     font-weight: bold;
+    font-size: 100%!important;
   }
 /* end */
 

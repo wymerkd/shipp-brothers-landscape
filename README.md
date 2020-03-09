@@ -77,6 +77,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 <!-- for gallery page gallery -->
 # _npm install react-photo-gallery_
 # _npm install react-images_
+<!-- for contact modal -->
+#_npm install reactjs-popup --save_
 
 
 #677864 Green rgba(103, 120, 100, 1)
