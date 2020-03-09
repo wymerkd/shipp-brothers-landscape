@@ -8,7 +8,7 @@ const NavBar = () => {
     <div>
       <Navbar id="navStyles" collapseOnSelect expand="lg">
         <Navbar.Brand href="#/">
-          <img className="img-fluid" src="/images/navImages/treeLogo.png" alt="fir tree busisness logo"></img>
+          <img className="img-fluid" src="/images/navImages/treeLogoOriginal.png" alt="fir tree busisness logo"></img>
           <h1 id="brandLogo">SHIPP BROTHERS<br id="logoBreak"></br> LANDSCAPE, INC.</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -17,7 +17,7 @@ const NavBar = () => {
             <br></br>
             <Nav.Item id="phoneNumber">Call Us (360) 887-8564</Nav.Item>
           </Nav>
-          <Nav id="linkPosition">
+          <Nav id="linkPosition" className="navBackgroundImg img-fluid">
             <Nav.Link className="nav-item active" href="#/">Home</Nav.Link>
             <Nav.Link href="#gallery">Gallery</Nav.Link>
             <NavDropdown title="Services" id="collapsible-nav-dropdown">

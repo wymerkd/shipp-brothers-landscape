@@ -31,6 +31,14 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
   }
 /* end */
 
+.navBackgroundImg {
+  background-image: url("/images/navImages/treeLogo.png");
+  position: relative;
+  /* Center and scale the image nicely */
+  background-position: center;
+  /* background-repeat: repeat-x; */
+}
+
 /* styles font for shipp brothers logo and positions next to tree image logo */
 #brandLogo {
   font-family: 'Playbill', sans-serif;
