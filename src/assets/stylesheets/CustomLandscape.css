@@ -1,11 +1,26 @@
-#aboutUs {
+#services {
   background-color: #F7F9FB;
 }
 
-.about {
-  /* background-color: #687864 !important; */
-  /* background-image: linear-gradient(to right bottom, #677864, #80988f, #a3b8b8, #cdd8dc, #f7f9fb); */
+.service {
   color: white;
+  padding: 2rem 2rem 0 2rem;
+  /* padding-top: 3rem;
+  border-bottom: 7px double white;
+  border-right: 7px double white;
+  border-left: 7px double white; */
+}
+
+.columnPadding {
+  padding: 1rem;
+}
+
+.green {
+  background-color: #687864!important;
+}
+
+.blue {
+  background-color: #5085A5!important;
 }
 
 .imageShadow {

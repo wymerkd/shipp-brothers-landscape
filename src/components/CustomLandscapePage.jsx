@@ -1,5 +1,8 @@
 import React from 'react';
 import NavBar from './NavBar'
+import TreeBackgroundSecondary from './TreeBackgroundSecondary'
+import TreeBackgroundTop from './TreeBackgroundTop'
+import TreeBackgroundBottom from './TreeBackgroundBottom'
 import CustomLandscapeHeader from './CustomLandscapeHeader'
 import '../assets/stylesheets/CustomLandscape.css';
 
@@ -9,10 +12,12 @@ const CustomLandscape= () => {
     <div>
       <NavBar />
       <CustomLandscapeHeader />
-      <div id="aboutUs">
-        <div className="aboutShadow container-fluid padding">
-          <div className="about row padding ">
-            <div className="col-lg-6">
+      <TreeBackgroundTop />
+      <TreeBackgroundBottom />
+      <div id="services">
+        <div className="container-fluid">
+          <div className="service blue row">
+            <div className="col-lg-6 columnPadding">
               <p>We pride ourselves on designing and creating exactly what the customer wants and needs. Upon your first meeting with a Shipp Brothers representative, we will discuss your overall vision of what you expect. Whether you already have a drawn landscape plan, wish to revise or alter that plan, or wish for us to draw one for you, we will make sure that you are completely satisfied before we actually begin installation.
               <br></br>
               <br></br>
@@ -20,13 +25,15 @@ const CustomLandscape= () => {
               <br></br>
               <br></br>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 columnPadding">
               <img src="https://i.picsum.photos/id/1011/700/400.jpg" className="imageShadow img-fluid shadow-sm p-3 mb-5 rounded" alt="" />
             </div>
-            <div className="col-lg-6">
+          </div>
+          <div className="service green row">
+            <div className="col-lg-6 columnPadding">
               <img src="https://i.picsum.photos/id/1011/700/400.jpg" className="imageShadow img-fluid shadow-sm p-3 mb-5 rounded" alt="" />
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 columnPadding">
               <h2>Who We Are</h2>
               <p>Shipp Brothers is proud to display the largest nursery in all of Clark County. We have over 50 acres of field grown stock, and 10 green-houses full of beautiful, professionally maintained container stock.</p>
               <br></br>

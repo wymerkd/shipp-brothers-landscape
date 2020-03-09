@@ -18,7 +18,7 @@ const AboutUs = () => {
               <br></br>
             </div>
             <div className="col-lg-6">
-              <img src="https://i.picsum.photos/id/1011/700/400.jpg" className="imageShadow img-fluid shadow-sm p-3 mb-5 rounded" alt="" />
+              <img src="/images/galleryImages/shipp6.png" className="imageShadow img-fluid mb-5 rounded" alt="" />
             </div>
           </div>
         </div>

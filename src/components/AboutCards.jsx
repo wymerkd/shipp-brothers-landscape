@@ -25,7 +25,7 @@ const AboutCards = () => {
   						</div>
   					</div>
   				</div>
-  				<div className="col-md-4 d-flex align-items-stretch1">
+  				<div className="col-md-4 d-flex align-items-stretch">
   					<div className="card">
   						<img className="card-img-top" src="https://i.picsum.photos/id/1041/200/200.jpg" alt="" />
   						<div className="card-body">
