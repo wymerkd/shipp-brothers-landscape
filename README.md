@@ -79,6 +79,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 # _npm install react-images_
 <!-- for contact modal -->
 #_npm install reactjs-popup --save_
+<!-- for video grid -->
+#_http://www.prepbootstrap.com/bootstrap-template/video-gallery_
 
 
 #677864 Green rgba(103, 120, 100, 1)
