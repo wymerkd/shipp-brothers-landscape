@@ -25,3 +25,17 @@ hr.light-100 {
 footer h5 {
   padding-bottom: .5rem;
 }
+
+
+
+@media (min-width: 992px) {
+  #mobileMap {
+    display: none
+  }
+}
+
+@media (max-width: 992px) {
+  #largeMap {
+    display: none
+  }
+}

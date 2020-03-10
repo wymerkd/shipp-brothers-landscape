@@ -1,41 +1,33 @@
 .treeBackground {
-  /* z-index: 0; */
   position: relative;
   height: 11vh;
   width: 100%;
   background-image: url('/images/TreeBackground.png');
   background-repeat: repeat-x;
   background-position:0 100%;
-  /* background-size:20%;  */
   background-color: #687864;
 }
 
 .treeBackgroundTop {
-  /* z-index: 0; */
+
   position: relative;
-  height: 7vh;
+  height: 8vh;
   width: 100%;
   background-image: url('/images/TreeBackgroundTop.png');
   background-repeat: repeat-x;
-  background-position:0 100%;
-  /* background-size:20%;  */
+  background-position: 0 100%;
   background-color: #687864;
-  /* border-right: 7px double white;
-  border-left: 7px double white; */
-  /* margin-bottom: 1.1rem; */
+  margin-top: 0;
 }
 
 .treeBackgroundBottom {
-  /* z-index: 0; */
+
   position: relative;
-  height: 3.2vh;
+  height: 7vh;
   width: 100%;
   background-image: url('/images/TreeBackgroundBottom.png');
   background-repeat: repeat-x;
-  background-position:1 100%;
-  /* background-size:20%;  */
+  background-position: 1 100%;
   background-color: #F7F9FB
-  /* border-right: 7px double white;
-  border-left: 7px double white; */
-  /* margin-bottom: 1.1rem; */
+
 }
