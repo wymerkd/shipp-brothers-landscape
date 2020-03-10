@@ -7,6 +7,7 @@ import TreeBackgroundBottom from './TreeBackgroundBottom'
 import AboutUs from './AboutUs'
 import AboutCards from './AboutCards'
 import TeamHeader from './TeamHeader'
+import ContactFooter from './ContactFooter'
 
 
 
@@ -20,6 +21,7 @@ const HomePage = () => {
       <TreeBackgroundBottom />
       <TeamHeader />
       <AboutCards />
+      <ContactFooter />
     </div>
   );
 }

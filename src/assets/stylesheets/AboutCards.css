@@ -2,9 +2,7 @@
   background-color: #5085A5!important;
   color: #F7F9FB;
   padding: 2rem;
-  /* border-bottom: 7px double white;
-  border-right: 7px double white;
-  border-left: 7px double white; */
+  padding-bottom: 6rem;
 }
 
 .card {
@@ -30,5 +28,4 @@
   .brotherBio {
     padding-top: 1rem;
   }
-
 }

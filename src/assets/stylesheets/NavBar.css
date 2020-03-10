@@ -8,36 +8,30 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 
 #navStyles {
   background-color: rgba(247, 249, 251, 1);
-  padding-bottom: 30px;
 }
 
 /* navlink font styles  */
 .nav-link {
   font-size: 1.2em !important;
-  color: rgba(103, 120, 100, 1)!important;
+  color: #F7F9FB!important;
   font-weight: bold;
 }
 
 .nav-link:hover {
-  color: black!important;
+  color: #677864!important;
 }
 /* end
 
 
 /* styles phone number */
-  #phoneNumber {
-    font-weight: bold;
-    font-size: 100%!important;
-  }
+#phoneNumber {
+  font-weight: bold;
+  font-size: 100%!important;
+  color: #F7F9FB;
+}
 /* end */
 
-.navBackgroundImg {
-  background-image: url("/images/navImages/treeLogo.png");
-  position: relative;
-  /* Center and scale the image nicely */
-  background-position: center;
-  /* background-repeat: repeat-x; */
-}
+
 
 /* styles font for shipp brothers logo and positions next to tree image logo */
 #brandLogo {
@@ -84,11 +78,6 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 
 }
 
-@media (max-width: 768px) {
-
-
-}
-
 @media (max-width: 576px) {
   #brandLogo {
     display: inline-flex;
@@ -100,6 +89,19 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 
   #logoBreak {
     display: inherit;
+  }
+}
+
+@media (min-width: 992px) {
+  .navBackgroundImg {
+    background-image: url("/images/navImages/forestBackground.png");
+    position: relative;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+
+  #navStyles {
+    padding-bottom: 1rem;
   }
 }
 
