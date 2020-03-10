@@ -1,0 +1,28 @@
+/* .pb-video-container {
+        padding-top: 20px;
+        background: #bdc3c7;
+        font-family: Lato;
+    } */
+
+    .pb-video {
+      padding-bottom: 5px;
+    }
+
+        /* .pb-video:hover {
+            background: #2c3e50;
+        } */
+
+    .pb-video-frame {
+        padding-bottom: 5px;
+    }
+
+        /* .pb-video-frame:hover {
+            border: 2px solid black;
+            margin-top: none;
+            padding-top: none;
+        } */
+
+
+    .pb-row {
+        margin-bottom: 10px;
+    }

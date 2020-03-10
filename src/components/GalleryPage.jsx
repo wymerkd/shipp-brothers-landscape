@@ -5,6 +5,7 @@ import NavBar from './NavBar'
 import TreeBackgroundTop from './TreeBackgroundTop'
 import TreeBackgroundBottom from './TreeBackgroundBottom'
 import ContactFooter from './ContactFooter'
+import BootstrapVidGrid from './BootstrapVidGrid'
 
 const GalleryPage = () => {
   return(
@@ -13,6 +14,7 @@ const GalleryPage = () => {
       <GalleryHeader />
       <TreeBackgroundTop />
       <TreeBackgroundBottom />
+      <BootstrapVidGrid />
       <GalleryMain />
       <ContactFooter />
     </div>

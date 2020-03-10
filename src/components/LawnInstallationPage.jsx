@@ -18,12 +18,8 @@ const LawnInstallation= () => {
         <div className="container-fluid">
           <div className="service blue row">
             <div className="col-lg-6 columnPadding">
-              <p>We pride ourselves on designing and creating exactly what the customer wants and needs. Upon your first meeting with a Shipp Brothers representative, we will discuss your overall vision of what you expect. Whether you already have a drawn landscape plan, wish to revise or alter that plan, or wish for us to draw one for you, we will make sure that you are completely satisfied before we actually begin installation.
-              <br></br>
-              <br></br>
-              All professional services require order and process to maximize the quality of the end product. Every contractor has there own way of achieving this. Through experience, we have developed a method that has enabled us to present our customers with very professional results.</p>
-              <br></br>
-              <br></br>
+              <h2>Hydroseeding</h2>
+              <p>The most technologically advanced way to seed a lawn. A mixture of fertilizer, premium grass seed and wood fiber mulch is added to water and sprayed onto the ground with the use of a machine. This method is the fastest, most efficient way to obtain a thick, healthy lawn from seed germination. The average time for germination is about 5-7 days, depending on temperature and weather conditions. And with the experience that Shipp Brothers has in using this method, you can be sure that you’ll get the best results possible. </p>
             </div>
             <div className="col-lg-6 columnPadding">
               <img src="https://i.picsum.photos/id/1011/700/400.jpg" className="imageShadow img-fluid mb-5 rounded" alt="" />
@@ -34,14 +30,8 @@ const LawnInstallation= () => {
               <img src="https://i.picsum.photos/id/1011/700/400.jpg" className="imageShadow img-fluid mb-5 rounded" alt="" />
             </div>
             <div className="col-lg-6 columnPadding">
-              <h2>Who We Are</h2>
-              <p>Shipp Brothers is proud to display the largest nursery in all of Clark County. We have over 50 acres of field grown stock, and 10 green-houses full of beautiful, professionally maintained container stock.</p>
-              <br></br>
-              <p>Shipp Brothers employs 10-15 workers, depending on seasonal weather. All employees receive the same professional training to ensure that the quality of our service is consistently superior.</p>
-              <br></br>
-              <p>Shipp Brothers Landscape is a member of the Washington Association of Landscape Professionals (WALP).</p>
-              <br></br>
-              <br></br>
+              <h2>Sod</h2>
+              <p>A great idea for those who desire a lush, green lawn without the wait. Shipp Brothers has an outstanding reputation for installing beautiful lawns with the use of sod. The advantage to using sod over seed is that you will have an instant lawn.</p>
             </div>
           </div>
         </div>
