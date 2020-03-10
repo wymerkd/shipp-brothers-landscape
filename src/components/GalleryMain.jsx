@@ -19,7 +19,7 @@ const GalleryMain = () => {
   };
 
   return (
-    <div style={{backgroundColor:"#F7F9FB", borderRight: "3px solid #5085A5", borderLeft: "3px solid #5085A5", borderBottom: "3px solid #5085A5", margin: "0 2px 2px 2px"}}>
+    <div style={{backgroundColor:"#F7F9FB", paddingTop:"2rem"}}>
       <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (

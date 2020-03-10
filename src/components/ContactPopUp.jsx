@@ -9,8 +9,27 @@ const Modal = () => (
     closeOnDocumentClick
   >
     <div className="modalStyle">
-      <h1>CONTACT US NOW</h1>
-    </div>
+			<div className="container-fluid">
+				<div className="row text-center">
+					<div className="col">
+            <hr className="light"></hr>
+						<h5>Contact</h5>
+						<hr className="light"></hr>
+						<p>Steve Shipp</p>
+						<p>Cell: (360) 518-3396</p>
+						<p>Office: (360) 887-8564</p>
+						<p>steveshipp@shippbrothers.com</p>
+					</div>
+          <div className="col">
+            <hr className="light"></hr>
+            <h5>Location</h5>
+            <hr className="light"></hr>
+              <p>20115 NW 18th Pl</p>
+              <p>Ridgefield, WA, 98642</p>
+          </div>
+				</div>
+			</div>
+  </div>
   </Popup>
 );
 

@@ -1,13 +1,13 @@
 #aboutCards {
-  background-color: #5085A5!important;
-  color: #F7F9FB;
+  background-color: #F7F9FB!important;
+  color: black;
   padding: 2rem;
   padding-bottom: 6rem;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
-  border-color: #5085A5;
+  border: none;
 }
 
 .card-body {

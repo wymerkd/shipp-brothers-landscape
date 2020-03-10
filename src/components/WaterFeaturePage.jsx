@@ -1,9 +1,9 @@
 import React from 'react';
 import NavBar from './NavBar'
-import TreeBackgroundSecondary from './TreeBackgroundSecondary'
 import TreeBackgroundTop from './TreeBackgroundTop'
 import TreeBackgroundBottom from './TreeBackgroundBottom'
-import CustomLandscapeHeader from './CustomLandscapeHeader'
+import WaterFeatureHeader from './WaterFeatureHeader'
+import ContactFooter from './ContactFooter'
 import '../assets/stylesheets/Services.css';
 
 
@@ -11,7 +11,7 @@ const WaterFeatures= () => {
   return(
     <div>
       <NavBar />
-      <CustomLandscapeHeader />
+      <WaterFeatureHeader />
       <TreeBackgroundTop />
       <TreeBackgroundBottom />
       <div id="services">
@@ -46,6 +46,7 @@ const WaterFeatures= () => {
           </div>
         </div>
       </div>
+      <ContactFooter />
     </div>
   );
 }

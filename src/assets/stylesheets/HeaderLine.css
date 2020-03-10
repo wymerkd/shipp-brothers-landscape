@@ -5,15 +5,15 @@
 }
 
 #aboutHeader {
-  background-color: #5085A5!important;
+  background-color: #F7F9FB!important;
 }
 
 .teamHeader {
   width: 75%;
   margin: 0 auto;
   padding-top: 2rem;
-  color: #F7F9FB;
-  text-shadow: 1px 1px 15px #000;
+  color: #687864;
+  font-weight: bolder;
 }
 
 .header {
@@ -24,10 +24,6 @@
 }
 
 .header h1 {
-  /* border: 7px double #687864;
-  border-radius: 10px;
-  background-color: #F7F9FB;
-  padding: .5rem; */
   font-size: 300%;
   text-shadow: 1px 1px 15px #000;
 }
@@ -36,34 +32,3 @@
   border-top: 2px solid rgba(247, 249, 251, 1);
   width: 95%;
 }
-
-/* .allHeader {
-  background-color: #687864;
-  border-top: 7px double white;
-  border-right: 7px double white;
-  border-left: 7px double white;
-}
-
-#aboutHeader {
-  border-bottom: none!important;
-}
-
-.header {
-  width: 75%;
-  margin: 0 auto;
-  padding-top: 3.3rem;
-  color: #687864;
-}
-
-.header h1 {
-  border: 7px double #687864;
-  border-radius: 10px;
-  background-color: #F7F9FB;
-  padding: .5rem;
-  font-size: 300%;
-}
-
-.header hr {
-  border-top: 2px solid rgba(247, 249, 251, 1);
-  width: 95%;
-} */

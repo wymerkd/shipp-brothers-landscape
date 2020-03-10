@@ -1,9 +1,9 @@
 import React from 'react';
 import NavBar from './NavBar'
-import TreeBackgroundSecondary from './TreeBackgroundSecondary'
 import TreeBackgroundTop from './TreeBackgroundTop'
 import TreeBackgroundBottom from './TreeBackgroundBottom'
-import CustomLandscapeHeader from './CustomLandscapeHeader'
+import LawnInstallationHeader from './LawnInstallationHeader'
+import ContactFooter from './ContactFooter'
 import '../assets/stylesheets/Services.css';
 
 
@@ -11,7 +11,7 @@ const LawnInstallation= () => {
   return(
     <div>
       <NavBar />
-      <CustomLandscapeHeader />
+      <LawnInstallationHeader />
       <TreeBackgroundTop />
       <TreeBackgroundBottom />
       <div id="services">
@@ -46,6 +46,7 @@ const LawnInstallation= () => {
           </div>
         </div>
       </div>
+      <ContactFooter />
     </div>
   );
 }

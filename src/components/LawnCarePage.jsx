@@ -1,9 +1,9 @@
 import React from 'react';
 import NavBar from './NavBar'
-import TreeBackgroundSecondary from './TreeBackgroundSecondary'
 import TreeBackgroundTop from './TreeBackgroundTop'
 import TreeBackgroundBottom from './TreeBackgroundBottom'
 import CustomLandscapeHeader from './CustomLandscapeHeader'
+import ContactFooter from './ContactFooter'
 import '../assets/stylesheets/Services.css';
 
 
@@ -46,6 +46,7 @@ const LawnCareGuide= () => {
           </div>
         </div>
       </div>
+    <ContactFooter />
     </div>
   );
 }

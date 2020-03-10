@@ -13,12 +13,12 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 /* navlink font styles  */
 .nav-link {
   font-size: 1.2em !important;
-  color: #F7F9FB!important;
+  color: #677864!important;
   font-weight: bold;
 }
 
 .nav-link:hover {
-  color: #677864!important;
+  color: black!important;
 }
 /* end
 
@@ -27,7 +27,7 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 #phoneNumber {
   font-weight: bold;
   font-size: 100%!important;
-  color: #F7F9FB;
+  color: black;
 }
 /* end */
 

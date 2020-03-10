@@ -3,12 +3,7 @@
 }
 
 .service {
-  color: #F7F9FB;
-  padding: 2rem 2rem 0 2rem;
-  /* padding-top: 3rem;
-  border-bottom: 7px double white;
-  border-right: 7px double white;
-  border-left: 7px double white; */
+  padding: 5rem 2rem 2rem 2rem;
 }
 
 .columnPadding {
@@ -17,10 +12,13 @@
 
 .green {
   background-color: #687864!important;
+  color: #F7F9FB;
 }
 
 .blue {
-  background-color: #5085A5!important;
+  background-color: #F7F9FB!important;
+  color: black!important;
+  font-weight: 400;
 }
 
 .imageShadow {

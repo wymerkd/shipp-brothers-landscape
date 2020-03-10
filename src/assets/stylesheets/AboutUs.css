@@ -5,10 +5,13 @@
 .about {
   background-color: #687864!important;
   color: #F7F9FB;
-  padding-top: 4.5rem;
-  /* border-top: 7px double white;
-  border-right: 7px double white;
-  border-left: 7px double white; */
+  padding-top: 5.75rem;
+  padding-bottom: 1rem;
+}
+
+.about h1 {
+  font-size: 300%;
+  text-shadow: 1px 1px 15px #000;
 }
 
 .imageShadow {

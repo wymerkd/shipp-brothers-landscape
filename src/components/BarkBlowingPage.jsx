@@ -1,9 +1,9 @@
 import React from 'react';
 import NavBar from './NavBar'
-import TreeBackgroundSecondary from './TreeBackgroundSecondary'
+import ContactFooter from './ContactFooter'
 import TreeBackgroundTop from './TreeBackgroundTop'
 import TreeBackgroundBottom from './TreeBackgroundBottom'
-import CustomLandscapeHeader from './CustomLandscapeHeader'
+import BarkBlowingHeader from './BarkBlowingHeader'
 import '../assets/stylesheets/Services.css';
 
 
@@ -11,7 +11,7 @@ const BarkBlowing= () => {
   return(
     <div>
       <NavBar />
-      <CustomLandscapeHeader />
+      <BarkBlowingHeader />
       <TreeBackgroundTop />
       <TreeBackgroundBottom />
       <div id="services">
@@ -46,6 +46,7 @@ const BarkBlowing= () => {
           </div>
         </div>
       </div>
+      <ContactFooter />
     </div>
   );
 }

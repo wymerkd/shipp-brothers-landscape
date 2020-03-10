@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar'
-import TreeBackgroundSecondary from './TreeBackgroundSecondary'
+import ContactFooter from './ContactFooter'
 import TreeBackgroundTop from './TreeBackgroundTop'
 import TreeBackgroundBottom from './TreeBackgroundBottom'
 import CustomLandscapeHeader from './CustomLandscapeHeader'
@@ -40,12 +40,11 @@ const CustomLandscape= () => {
               <p>Shipp Brothers employs 10-15 workers, depending on seasonal weather. All employees receive the same professional training to ensure that the quality of our service is consistently superior.</p>
               <br></br>
               <p>Shipp Brothers Landscape is a member of the Washington Association of Landscape Professionals (WALP).</p>
-              <br></br>
-              <br></br>
             </div>
           </div>
         </div>
       </div>
+      <ContactFooter />
     </div>
   );
 }
