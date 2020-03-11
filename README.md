@@ -103,4 +103,4 @@ font-family: 'Work Sans', sans-serif;
 
 |  Start Time | End Time | Task |
 |---|---|---|
-| 8:00 AM | 11:30 AM | Working on cover letters for internships |
+| 8:00 AM | 1:30 PM | Finished working on cover letters and turned them in |

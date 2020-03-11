@@ -18,7 +18,7 @@ const AboutUs = () => {
             <br></br>
           </div>
           <div className="col-lg-6">
-            <img src="/images/galleryImages/shipp6.png" className="imageShadow img-fluid mb-5 rounded" alt="" />
+            <img src="http://s3.amazonaws.com/shipp-brothers-landscape/shipp6.png" className="imageShadow img-fluid mb-5 rounded" alt="" />
           </div>
         </div>
       </div>
