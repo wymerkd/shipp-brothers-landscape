@@ -104,3 +104,5 @@ font-family: 'Work Sans', sans-serif;
 |  Start Time | End Time | Task |
 |---|---|---|
 | 8:00 AM | 1:30 PM | Finished working on cover letters and turned them in |
+
+Attempt to install AWS s3 and deploy, didnt' work. Now trying Netlify
