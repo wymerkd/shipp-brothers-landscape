@@ -91,6 +91,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 #8FC1E3 Light Blue rgba(143, 193, 227, 1)
 #F7F9FB Whiteish rgba(247, 249, 251, 1)
 
+available fonts
+font-family: 'Oswald', sans-serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Cardo', serif;
+font-family: 'Work Sans', sans-serif;
+
 ## Shipp Brothers Landscape
 #### February 28, 2020
 

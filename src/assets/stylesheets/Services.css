@@ -6,6 +6,11 @@
   padding: 5rem 2rem 2rem 2rem;
 }
 
+.service p {
+  font-family: 'Cardo', serif;
+  font-size: 1.3rem;
+}
+
 .columnPadding {
   padding: 1rem;
 }

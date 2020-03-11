@@ -1,13 +1,18 @@
 .about {
   background-color: #687864!important;
   color: #F7F9FB;
-  padding-top: 5.75rem;
-  padding-bottom: 1rem;
+  padding: 5.75rem 2rem 1rem 2rem;
 }
 
 .about h1 {
-  font-size: 300%;
+  font-size: 3.5rem;
   text-shadow: 1px 1px 15px #000;
+  font-family: 'Crimson Text', serif;
+}
+
+.about p {
+  font-family: 'Cardo', serif;
+  font-size: 1.3rem;
 }
 
 .imageShadow {

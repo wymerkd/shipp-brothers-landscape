@@ -5,19 +5,7 @@
   margin-bottom: 7rem;
 }
 
-.carousel-control-next-icon {
-  background-image: url('/images/arrowRight.png')!important;
-  width: 60px!important;
-  height: 60px!important;
-  margin-left: 50px!important;
-}
 
-.carousel-control-prev-icon {
-  background-image: url('/images/arrowLeft.png')!important;
-  width: 60px!important;
-  height: 60px!important;
-  margin-right: 50px!important;
-}
 
 .modal-dialog.cascading-modal.modal-avatar .modal-header, .video-fluid {
   max-height: 500px!important;
@@ -26,7 +14,7 @@
 
 @media (max-width: 576px) {
   .innerStyles {
-    width: 320px!important;
+    width: 300px!important;
     height: 200px!important;
   }
 }

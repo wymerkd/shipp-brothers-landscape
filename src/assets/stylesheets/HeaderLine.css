@@ -1,7 +1,7 @@
 .allHeader {
   background-color: #687864;
   padding-bottom: .25rem;
-  /* border: 7px double white; */
+  font-family: 'Crimson Text', serif;
 }
 
 #aboutHeader {
@@ -13,7 +13,7 @@
   margin: 0 auto;
   padding-top: 2rem;
   color: #687864;
-  font-weight: bolder;
+  text-shadow: 1px 1px 15px darkgrey;
 }
 
 .header {
@@ -24,7 +24,7 @@
 }
 
 .header h1 {
-  font-size: 300%;
+  font-size: 3.5rem;
   text-shadow: 1px 1px 15px #000;
 }
 

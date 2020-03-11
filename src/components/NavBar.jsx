@@ -6,7 +6,7 @@ import {Navbar, NavDropdown, Nav } from 'react-bootstrap'
 const NavBar = () => {
   return(
     <div>
-      <Navbar id="navStyles" collapseOnSelect expand="lg" className="img-fluid">
+      <Navbar id="navStyles" collapseOnSelect expand="xl" className="img-fluid">
         <Navbar.Brand href="#/">
           <img className="img-fluid" src="/images/navImages/treeLogoOriginal.png" alt="fir tree busisness logo"></img>
           <h1 id="brandLogo">SHIPP BROTHERS<br id="logoBreak"></br> LANDSCAPE, INC.</h1>

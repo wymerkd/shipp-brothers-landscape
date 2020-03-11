@@ -12,7 +12,17 @@
 
 .card-body {
   background-color: #687864;
-  color: #F7F9FB;
+  color: #F7F9FB!important;
+}
+
+.card-body p {
+  font-family: 'Cardo', serif;
+  font-size: 1.3rem;
+}
+
+.card-body h4 {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.9rem;
 }
 
 /*---Media Queries --*/
@@ -26,6 +36,6 @@
 
 @media (max-width: 576px) {
   .brotherBio {
-    padding-top: 1rem;
+    padding-top: 1.5rem;
   }
 }
