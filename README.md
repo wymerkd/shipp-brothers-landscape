@@ -103,4 +103,4 @@ font-family: 'Work Sans', sans-serif;
 
 |  Start Time | End Time | Task |
 |---|---|---|
-| 12:00 PM | 3:30 PM | Meet with client to go over updated content for website, received USB with website photos and videos |
+| 8:00 AM | - | Working on cover letters for internships |
