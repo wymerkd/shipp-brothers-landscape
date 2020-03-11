@@ -1,7 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar'
 import HomeSlideShow from './HomeSlideShow'
-import TreeBackground from './TreeBackground'
 import TreeBackgroundTop from './TreeBackgroundTop'
 import TreeBackgroundBottom from './TreeBackgroundBottom'
 import AboutUs from './AboutUs'
