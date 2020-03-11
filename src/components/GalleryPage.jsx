@@ -5,6 +5,7 @@ import NavBar from './NavBar'
 import TreeBackgroundTop from './TreeBackgroundTop'
 import TreeBackgroundBottom from './TreeBackgroundBottom'
 import ContactFooter from './ContactFooter'
+import VideoCarousel from './VideoCarousel'
 import BootstrapVidGrid from './BootstrapVidGrid'
 
 const GalleryPage = () => {
@@ -14,7 +15,7 @@ const GalleryPage = () => {
       <GalleryHeader />
       <TreeBackgroundTop />
       <TreeBackgroundBottom />
-      <BootstrapVidGrid />
+      <VideoCarousel />
       <GalleryMain />
       <ContactFooter />
     </div>

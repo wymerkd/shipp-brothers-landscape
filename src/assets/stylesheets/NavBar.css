@@ -93,13 +93,6 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 }
 
 @media (min-width: 992px) {
-  .navBackgroundImg {
-    background-image: url("/images/navImages/forestBackground.png");
-    position: relative;
-    background-position: right bottom;
-    background-repeat: no-repeat;
-  }
-
   #navStyles {
     padding-bottom: 1rem;
   }
@@ -108,11 +101,6 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 @media (min-width: 576px) {
   #linkPosition {
     padding-top: 50px;
-  }
-
-  .firstBreak:after {
-    content: '\A';
-    white-space: pre;
   }
 
   #phoneNumber {

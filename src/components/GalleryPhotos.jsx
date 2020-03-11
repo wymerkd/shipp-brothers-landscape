@@ -275,25 +275,5 @@ export const photos = [
     src: "/images/galleryImages/gallery55.png",
     width: 4,
     height: 3
-  },
-  {
-    src: "/images/galleryImages/gallery24.png",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "/images/galleryImages/gallery25.png",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "/images/galleryImages/gallery26.png",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "/images/galleryImages/gallery27.png",
-    width: 4,
-    height: 3
   }
 ];
