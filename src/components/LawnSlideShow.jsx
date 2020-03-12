@@ -26,7 +26,7 @@ const LawnSlideShow = () => {
     <div className="slide-container">
       <Fade {...fadeProperties}>
         <div className="each-fade">
-          <div className="image-container imageShadow">
+          <div className="image-container shadowEffect">
             <img src={fadeImages[0]} />
           </div>
         </div>

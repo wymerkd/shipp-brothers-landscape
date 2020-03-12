@@ -43,10 +43,6 @@
   padding-bottom: 4rem;
 }
 
-.headerPadding {
-  padding-top: 10%;
-}
-
 @media (max-width: 576px) {
   .service p {
     font-size: 1.2rem;

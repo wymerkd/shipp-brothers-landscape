@@ -4,7 +4,7 @@ import TreeBackgroundTop from './TreeBackgroundTop'
 import TreeBackgroundBottom from './TreeBackgroundBottom'
 import RetainingWallHeader from './RetainingWallHeader'
 import ContactFooter from './ContactFooter'
-import HomeSlideShow from './HomeSlideShow'
+import RetainingWallSlideShow from './RetainingWallSlideShow'
 import '../assets/stylesheets/Services.css';
 
 
@@ -28,7 +28,7 @@ const RetainingWalls= () => {
               <br></br>
             </div>
             <div className="col-lg-6 columnPadding">
-              <HomeSlideShow />
+              <RetainingWallSlideShow />
             </div>
           </div>
         </div>
