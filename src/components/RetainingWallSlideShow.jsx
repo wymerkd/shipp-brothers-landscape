@@ -5,18 +5,13 @@ import '../assets/stylesheets/HomeSlideShow.css';
 const fadeImages = [
   'images/RetainingWallImages/retainingWall1.png',
   'images/RetainingWallImages/retainingWall2.png',
-  'images/RetainingWallImages/retainingWall3.png',
   'images/RetainingWallImages/retainingWall4.png',
   'images/RetainingWallImages/retainingWall5.png',
   'images/RetainingWallImages/retainingWall6.png',
   'images/RetainingWallImages/retainingWall7.png',
-  'images/RetainingWallImages/retainingWall8.png',
-  'images/RetainingWallImages/retainingWall9.png',
   'images/RetainingWallImages/retainingWall10.png',
   'images/RetainingWallImages/retainingWall11.png',
   'images/RetainingWallImages/retainingWall12.png',
-  'images/RetainingWallImages/retainingWall13.png',
-  'images/RetainingWallImages/retainingWall14.png',
   'images/RetainingWallImages/retainingWall15.png',
   'images/RetainingWallImages/retainingWall16.png'
 ];
@@ -89,31 +84,6 @@ const RetainingWallSlideShow = () => {
         <div className="each-fade">
           <div className="image-container">
             <img src={fadeImages[10]} />
-          </div>
-        </div>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[11]} />
-          </div>
-        </div>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[12]} />
-          </div>
-        </div>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[13]} />
-          </div>
-        </div>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[14]} />
-          </div>
-        </div>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[15]} />
           </div>
         </div>
       </Fade>
