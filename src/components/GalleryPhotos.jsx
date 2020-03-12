@@ -1,6 +1,6 @@
 export const photos = [
   {
-    src: "/images/galleryImages/gallery1.png",
+    src: "/images/galleryImages/gallery53.png",
     width: 4,
     height: 3,
   },
@@ -260,7 +260,7 @@ export const photos = [
     height: 3
   },
   {
-    src: "/images/galleryImages/gallery53.png",
+    src: "/images/galleryImages/gallery55.png",
     width: 4,
     height: 3
   },
@@ -270,7 +270,7 @@ export const photos = [
     height: 3
   },
   {
-    src: "/images/galleryImages/gallery55.png",
+    src: "/images/galleryImages/gallery1.png",
     width: 4,
     height: 3
   }

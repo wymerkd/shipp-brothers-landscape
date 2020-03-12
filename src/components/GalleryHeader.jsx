@@ -8,7 +8,7 @@ const GalleryHeader = () => {
       <div className="container-fluid">
         <div className="row header text-center">
           <div className="col-12">
-            <h1 className="display-4">Landscape Gallery</h1>
+            <h1 className="display-4">Gallery</h1>
           </div>
         </div>
       </div>

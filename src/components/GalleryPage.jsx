@@ -15,7 +15,6 @@ const GalleryPage = () => {
       <GalleryHeader />
       <TreeBackgroundTop />
       <TreeBackgroundBottom />
-      <VideoCarousel />
       <GalleryMain />
       <ContactFooter />
     </div>

@@ -4,8 +4,8 @@ import '../assets/stylesheets/HomeSlideShow.css';
 
 const fadeImages = [
   'images/homeSlideShowImages/shipp1.png',
-  'images/homeSlideShowImages/shipp2.png',
-  'images/homeSlideShowImages/shipp3.png'
+  'images/homeSlideShowImages/shipp3.png',
+  'images/homeSlideShowImages/water1.png'
 ];
 
 const fadeProperties = {
@@ -38,7 +38,7 @@ const HomeSlideShow = () => {
           <div className="image-container">
             <img src={fadeImages[2]} />
           </div>
-          <h2>Custom <br></br> Landscape <br></br>Design</h2>
+          <h2>Award Winning <br></br> Landscape Design</h2>
         </div>
       </Fade>
     </div>
