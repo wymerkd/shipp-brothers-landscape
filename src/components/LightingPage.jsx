@@ -16,7 +16,7 @@ const Lighting= () => {
       <TreeBackgroundBottom />
       <div id="services">
         <div className="container-fluid">
-          <div className="service blue row">
+          <div className="service white row">
             <div className="col-lg-6 columnPadding">
               <p>Why should the beauty of your landscape be seen only during the daytime? Lighting adds both style and class to any yard. Whether it's lighting a pathway, illuminating a tree or shrub, or simply lighting up the exterior of your home, a lighting system is a great way to show off your yard at night. We proudly use Kichler brand products with a 15 year warranty.</p>
             </div>

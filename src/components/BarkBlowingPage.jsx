@@ -16,7 +16,7 @@ const BarkBlowing= () => {
       <TreeBackgroundBottom />
       <div id="services">
         <div className="container-fluid">
-          <div className="service blue row">
+          <div className="service white row">
             <div className="col-lg-6 columnPadding">
               <img src="https://i.picsum.photos/id/1011/700/400.jpg" className="imageShadow img-fluid mb-5 rounded" alt="" />
             </div>

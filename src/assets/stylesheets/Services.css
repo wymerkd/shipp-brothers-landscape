@@ -3,12 +3,21 @@
 }
 
 .service {
-  padding: 5rem 2rem 2rem 2rem;
+  padding: 2rem 2rem 2rem 2rem;
 }
 
 .service p {
   font-family: 'Cardo', serif;
   font-size: 1.3rem;
+}
+
+.service h2 {
+  font-size: 3rem;
+  font-family: 'Crimson Text', serif;
+}
+
+.green h2 {
+  text-shadow: 1px 1px 15px #000;
 }
 
 .columnPadding {
@@ -20,7 +29,7 @@
   color: #F7F9FB;
 }
 
-.blue {
+.white {
   background-color: #F7F9FB!important;
   color: black!important;
   font-weight: 400;
@@ -30,13 +39,25 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
+.bottomSpace {
+  padding-bottom: 4rem;
+}
 
 @media (max-width: 576px) {
   .service p {
     font-size: 1.2rem;
   }
 
+  .service h2 {
+    font-size: 2.7rem;
+    font-family: 'Crimson Text', serif;
+  }
+
   .service {
     padding: 1rem 2rem 1rem 2rem;
+  }
+
+  .bottomSpace {
+    padding-bottom: 2rem;
   }
 }

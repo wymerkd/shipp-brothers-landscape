@@ -17,8 +17,8 @@ const WaterFeatures= () => {
       <TreeBackgroundBottom />
       <div id="services">
         <div className="container-fluid">
-          <div className="service blue row">
-            <div className="col-lg-6 columnPadding">
+          <div className="service white row">
+            <div className="col-lg-6 columnPadding bottomSpace">
               <HomeSlideShow />
             </div>
             <div className="col-lg-6 columnPadding">

@@ -16,7 +16,7 @@ const LawnInstallation= () => {
       <TreeBackgroundBottom />
       <div id="services">
         <div className="container-fluid">
-          <div className="service blue row">
+          <div className="service white row">
             <div className="col-lg-6 columnPadding">
               <h2>Hydroseeding</h2>
               <p>The most technologically advanced way to seed a lawn. A mixture of fertilizer, premium grass seed and wood fiber mulch is added to water and sprayed onto the ground with the use of a machine. This method is the fastest, most efficient way to obtain a thick, healthy lawn from seed germination. The average time for germination is about 5-7 days, depending on temperature and weather conditions. And with the experience that Shipp Brothers has in using this method, you can be sure that you’ll get the best results possible. </p>

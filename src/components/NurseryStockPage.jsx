@@ -16,7 +16,7 @@ const NurseryStock= () => {
       <TreeBackgroundBottom />
       <div id="services">
         <div className="container-fluid">
-          <div className="service blue row">
+          <div className="service white row">
             <div className="col-lg-6 columnPadding">
               <p>We pride ourselves on designing and creating exactly what the customer wants and needs. Upon your first meeting with a Shipp Brothers representative, we will discuss your overall vision of what you expect. Whether you already have a drawn landscape plan, wish to revise or alter that plan, or wish for us to draw one for you, we will make sure that you are completely satisfied before we actually begin installation.
               <br></br>

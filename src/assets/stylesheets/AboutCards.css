@@ -35,6 +35,11 @@
 }
 
 @media (max-width: 576px) {
+  #aboutCards {
+    padding-bottom: 2rem;
+    padding-top: 0rem;
+  }
+
   .brotherBio {
     padding-top: 1.8rem;
   }
