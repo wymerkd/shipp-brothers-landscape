@@ -43,6 +43,13 @@
   padding-bottom: 4rem;
 }
 
+.barkDustVideo {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  max-width: 63%;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+
 @media (max-width: 576px) {
   .service p {
     font-size: 1.2rem;
