@@ -37,6 +37,7 @@
 
 .modalStyle {
   color: black!important;
+  background-color: brown!important;
 }
 
 @media (min-width 576px) {
