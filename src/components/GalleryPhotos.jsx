@@ -1,5 +1,3 @@
-
-
 export const photos = [
   {
     src: "/images/galleryImages/gallery1.png",

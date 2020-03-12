@@ -27,7 +27,7 @@ const CustomLandscape= () => {
               <br></br>
             </div>
             <div className="col-lg-6 columnPadding">
-              <video className="video-fluid d-block" autoPlay loop muted>
+              <video className="video-fluid d-block customLandscapeVideo" autoPlay loop muted>
                 <source src="/images/videos/customLandScape.mp4" type="video/mp4" />
               </video>
             </div>
