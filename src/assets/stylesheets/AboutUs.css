@@ -18,3 +18,15 @@
 .imageShadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
+
+
+@media (max-width: 576px) {
+  .about p {
+    font-size: 1.2rem;
+  }
+
+  .about h1 {
+    font-family: 'Crimson Text', serif;
+    font-size: 2.8rem;
+  }
+}
