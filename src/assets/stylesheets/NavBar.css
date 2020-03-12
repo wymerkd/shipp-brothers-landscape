@@ -24,9 +24,15 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 
 /* styles phone number */
 #phoneNumber {
+  display: none;
+}
+
+#phoneNumberSmall {
+  font-size: 1rem;
   font-weight: bold;
   font-size: 100%!important;
   color: black;
+  padding-bottom: .7rem;
 }
 /* end */
 
@@ -60,6 +66,8 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 .dropdown-item {
   font-weight: bolder;
   color: rgba(103, 120, 100, 1);
+  font-family: 'Crimson Text', serif;
+  font-size: 1.2rem!important;
 }
 
 .dropdown-item:hover {
@@ -75,6 +83,17 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 
 }
 
+@media (max-width: 340px) {
+  #brandLogo {
+    display: inline-flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(14%) translateX(2%);
+    word-spacing: none;
+    font-size: 250%;
+  }
+}
+
 @media (max-width: 576px) {
   #brandLogo {
     display: inline-flex;
@@ -86,6 +105,19 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 
   #logoBreak {
     display: inherit;
+  }
+
+  .nav-link {
+    font-size: 1.1rem !important;
+    text-align: center;
+  }
+
+  #phoneNumberSmall {
+    text-align: center;
+  }
+
+  .dropdown-item {
+    font-size: 1.1rem!important;
   }
 }
 
@@ -99,11 +131,21 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
   #linkPosition {
     padding-top: 50px;
   }
+}
 
+@media (min-width: 1200px) {
   #phoneNumber {
+    display: inherit;
     position: absolute;
     top: 26px;
     right: 24px;
     font-size: 1rem;
+    font-weight: bold;
+    font-size: 100%!important;
+    color: black;
+  }
+
+  #phoneNumberSmall {
+    display: none;
   }
 }

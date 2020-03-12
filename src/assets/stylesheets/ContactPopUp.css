@@ -37,43 +37,104 @@
 
 .modalStyle {
   color: black!important;
-
 }
 
-.popup-content {
-  max-width: 700px!important;
-  max-height: 400px!important;
-  min-width: 700px!important;
-  min-height: 400px!important;
+@media (min-width 576px) {
+
+
+  .left {
+    float: left;
+    padding: .7rem 0rem .5rem 3rem;
+  }
+
+  .right {
+    float: right;
+    padding: .7rem 3rem .5rem 0rem;
+  }
+
+  .popup-content {
+    max-width: 700px!important;
+    max-height: 400px!important;
+    min-width: 700px!important;
+    min-height: 400px!important;
+  }
+
+  #businessCardLogo {
+    font-family: 'Playbill', sans-serif;
+    font-size: 270%;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: -2px 2px 1px rgba(163, 163, 163, 1);
+    color: red;
+   -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+    display: inline-flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(27%) translateX(1%);
+    word-spacing: none;
+  }
+
+  #businessCardLogoPosition {
+    padding-left: 1.6rem;
+  }
+
+  .contactIcon {
+    display: inline-block;
+    padding-left: .3rem;
+  }
+
+  .pushRight {
+    padding-left: 1.3rem;
+  }
+
+  #steve {
+    font-size: 2.4rem;
+    text-align: center;
+    padding-top: 1.2rem;
+  }
 }
 
-.left {
-  float: left;
-  padding: 3rem 0rem .5rem 3rem;
-}
+@media (max-width 576px) {
+  .popup-content {
+    max-width: 300px!important;
+    max-height: 200px!important;
+    min-width: 300px!important;
+    min-height: 200px!important;
+  }
 
-.right {
-  float: right;
-  padding: 3rem 3rem .5rem 0rem;
-}
+  #businessCardLogo {
+    font-family: 'Playbill', sans-serif;
+    font-size: 180%;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: -2px 2px 1px rgba(163, 163, 163, 1);
+    color: red;
+   -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+    display: inline-flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(27%) translateX(1%);
+    word-spacing: none;
+  }
 
+  #businessCardLogoPosition {
+    padding-left: .8rem;
+  }
 
-#businessCardLogo {
-  font-family: 'Playbill', sans-serif;
-  font-size: 250%;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-  text-shadow: -2px 2px 1px rgba(163, 163, 163, 1);
-  color: red;
- -webkit-text-fill-color: red; /* Will override color (regardless of order) */
- -webkit-text-stroke-width: 1px;
- -webkit-text-stroke-color: white;
-  display: inline-flex;
-  position: relative;
-  top: 50%;
-  transform: translateY(27%) translateX(1%);
-  word-spacing: none;
-}
+  .contactIcon {
+    display: inline-block;
+    padding-left: .1rem;
+  }
 
-#businessCardLogoPosition {
-  padding-left: 1.6rem;
+  .pushRight {
+    padding-left: .8rem;
+  }
+
+  #steve {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: .8rem;
+  }
 }

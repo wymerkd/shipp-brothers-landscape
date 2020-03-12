@@ -18,6 +18,7 @@ const NavBar = () => {
             <Nav.Item id="phoneNumber">Call Us (360) 887-8564</Nav.Item>
           </Nav>
           <Nav id="linkPosition">
+            <Nav.Item id="phoneNumberSmall">Call Us (360) 887-8564</Nav.Item>
             <Nav.Link className="nav-item active" href="#/">Home</Nav.Link>
             <Nav.Link href="#gallery">Gallery</Nav.Link>
             <NavDropdown title="Services" id="collapsible-nav-dropdown">
