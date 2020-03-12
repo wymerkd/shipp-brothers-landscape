@@ -9,27 +9,20 @@ const Modal = () => (
     closeOnDocumentClick
   >
     <div className="modalStyle">
-			<div className="container-fluid">
-				<div className="row text-center">
-					<div className="col">
-            <hr className="light"></hr>
-						<h5>Contact</h5>
-						<hr className="light"></hr>
+      <div id="businessCardLogoPosition">
+        <img className="img-fluid" src="/images/navImages/treeLogoOriginal.png" alt="fir tree busisness logo"></img>
+        <h1 id="businessCardLogo">SHIPP BROTHERS LANDSCAPE, INC.</h1>
+      </div>
+					<div className="left">
 						<p>Steve Shipp</p>
-						<p>Cell: (360) 518-3396</p>
-						<p>Office: (360) 887-8564</p>
+						<p>Cell: (360) 518-3396 <br></br>Office: (360) 887-8564</p>
 						<p>steveshipp@shippbrothers.com</p>
 					</div>
-          <div className="col">
-            <hr className="light"></hr>
-            <h5>Location</h5>
-            <hr className="light"></hr>
+          <div className="right">
               <p>20115 NW 18th Pl</p>
               <p>Ridgefield, WA, 98642</p>
           </div>
-				</div>
-			</div>
-  </div>
+        </div>
   </Popup>
 );
 

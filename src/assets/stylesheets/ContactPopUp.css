@@ -11,7 +11,6 @@
 }
 
 .modal > .content {
-  width: 100%;
   padding: 10px 5px;
 }
 
@@ -38,10 +37,43 @@
 
 .modalStyle {
   color: black!important;
-  height: auto;
-  width: 100%;
+
 }
 
-.modalStyle h1 {
-  text-align: center;
+.popup-content {
+  max-width: 700px!important;
+  max-height: 400px!important;
+  min-width: 700px!important;
+  min-height: 400px!important;
+}
+
+.left {
+  float: left;
+  padding: 3rem 0rem .5rem 3rem;
+}
+
+.right {
+  float: right;
+  padding: 3rem 3rem .5rem 0rem;
+}
+
+
+#businessCardLogo {
+  font-family: 'Playbill', sans-serif;
+  font-size: 250%;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-shadow: -2px 2px 1px rgba(163, 163, 163, 1);
+  color: red;
+ -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: white;
+  display: inline-flex;
+  position: relative;
+  top: 50%;
+  transform: translateY(27%) translateX(1%);
+  word-spacing: none;
+}
+
+#businessCardLogoPosition {
+  padding-left: 1.6rem;
 }
