@@ -5,7 +5,6 @@ font-weight: normal;
 src: local('Playbill'), url('Playbill.woff') format('woff');
 }
 
-
 #navStyles {
   background-color: rgba(247, 249, 251, 1);
 }
@@ -23,7 +22,6 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
 }
 /* end
 
-
 /* styles phone number */
 #phoneNumber {
   font-weight: bold;
@@ -31,8 +29,6 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
   color: black;
 }
 /* end */
-
-
 
 /* styles font for shipp brothers logo and positions next to tree image logo */
 #brandLogo {
