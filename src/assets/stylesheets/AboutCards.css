@@ -38,4 +38,8 @@
   .brotherBio {
     padding-top: 1.5rem;
   }
+
+  .card-body p {
+    font-size: 8rem!important;
+  }
 }
