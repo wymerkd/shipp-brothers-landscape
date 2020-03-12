@@ -27,7 +27,9 @@ const CustomLandscape= () => {
               <br></br>
             </div>
             <div className="col-lg-6 columnPadding">
-              <img src="https://i.picsum.photos/id/1011/700/400.jpg" className="imageShadow img-fluid mb-5 rounded" alt="" />
+              <video className="video-fluid d-block" autoPlay loop muted>
+                <source src="/images/videos/customLandScape.mp4" type="video/mp4" />
+              </video>
             </div>
           </div>
         </div>
