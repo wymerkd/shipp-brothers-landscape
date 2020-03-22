@@ -7,7 +7,7 @@ const AboutCards = () => {
     <div id="aboutCards">
       <div className="container-fluid padding">
    			<div className="row">
-  				<div className="col-md-4 d-flex align-items-stretch brotherBio">
+  				<div className="col-sm-4 d-flex align-items-stretch brotherBio">
   					<div className="card">
   						<img className="card-img-top img-fluid" src="/images/homepageImages/steve.png" alt="" />
   						<div className="card-body">
@@ -16,7 +16,7 @@ const AboutCards = () => {
   						</div>
   					</div>
   				</div>
-  				<div className="col-md-4 d-flex align-items-stretch brotherBio">
+  				<div className="col-sm-4 d-flex align-items-stretch brotherBio">
   					<div className="card">
   						<img className="card-img-top img-fluid" src="/images/homepageImages/aj.png" alt="" />
   						<div className="card-body">
@@ -25,7 +25,7 @@ const AboutCards = () => {
   						</div>
   					</div>
   				</div>
-  				<div className="col-md-4 d-flex align-items-stretch brotherBio">
+  				<div className="col-sm-4 d-flex align-items-stretch brotherBio">
   					<div className="card">
   						<img className="card-img-top img-fluid" src="/images/homepageImages/spencer.png" alt="" />
   						<div className="card-body">
