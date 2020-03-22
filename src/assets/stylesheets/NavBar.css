@@ -105,7 +105,7 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
   }
 
   #logoBreak {
-    display: none;
+    display: inherit;
   }
 
   .nav-link {
