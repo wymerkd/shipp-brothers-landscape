@@ -90,7 +90,7 @@ src: local('Playbill'), url('Playbill.woff') format('woff');
     top: 50%;
     transform: translateY(14%) translateX(2%);
     word-spacing: none;
-    font-size: 200%;
+    font-size: 180%;
   }
 }
 
