@@ -10,7 +10,6 @@ const Modal = () => (
   >
     <div className="modalStyle">
       <div>
-
         <h1 id="businessCardLogo">SHIPP BROTHERS LANDSCAPE, INC.</h1>
         <p id="steve">Steve Shipp</p>
         <p><span><i className="fas fa-phone-square"></i> </span> Cell: (360) 518-3396</p>
