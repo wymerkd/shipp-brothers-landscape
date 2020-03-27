@@ -9,7 +9,7 @@ const AboutCards = () => {
    			<div className="row">
   				<div className="col-md-4 d-flex align-items-stretch brotherBio">
   					<div className="card">
-  						<img className="card-img-top customCardImg" src="/images/customLandscapeImages/soil.png" alt="" />
+  						<img className="card-img-top customCardImg" src="/images/customLandscapeImages/soil2.png" alt="" />
   						<div className="card-body">
   							<h4 className="card-title">Grading & Soil Preparation</h4>
   							<p className="card-text">In most cases an area to be landscaped will need either new topsoil added or the existing soil should be rototilled.</p>
@@ -27,7 +27,7 @@ const AboutCards = () => {
   				</div>
   				<div className="col-md-4 d-flex align-items-stretch brotherBio">
   					<div className="card">
-  						<img className="card-img-top customCardImg" src="/images/customLandscapeImages/plantMaterial.png" alt="" />
+  						<img className="card-img-top customCardImg" src="/images/customLandscapeImages/plantMaterial2.png" alt="" />
   						<div className="card-body">
   							<h4 className="card-title">Plant Material</h4>
   							<p className="card-text">Selected trees, shrubs and groundcover will be professionally planted and fertilized.</p>
@@ -40,7 +40,7 @@ const AboutCards = () => {
         <div className="row">
   				<div className="col-md-4 d-flex align-items-stretch brotherBio">
   					<div className="card">
-  						<img className="card-img-top customCardImg" src="/images/customLandscapeImages/rainBird.png" alt="" />
+  						<img className="card-img-top customCardImg" src="/images/customLandscapeImages/lighting.png" alt="" />
   						<div className="card-body">
   							<h4 className="card-title">Low Voltage Lighting</h4>
   							<p className="card-text">If desired, a high quality Kichler light system will be installed.</p>
