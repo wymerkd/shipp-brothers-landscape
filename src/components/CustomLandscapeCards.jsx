@@ -40,7 +40,7 @@ const AboutCards = () => {
         <div className="row">
   				<div className="col-md-4 d-flex align-items-stretch brotherBio">
   					<div className="card">
-  						<img className="card-img-top customCardImg" src="/images/customLandscapeImages/lighting.png" alt="" />
+  						<img className="card-img-top customCardImg" src="/images/customLandscapeImages/lawn.png" alt="" />
   						<div className="card-body">
   							<h4 className="card-title">Low Voltage Lighting</h4>
   							<p className="card-text">If desired, a high quality Kichler light system will be installed.</p>
@@ -58,7 +58,7 @@ const AboutCards = () => {
   				</div>
   				<div className="col-md-4 d-flex align-items-stretch brotherBio">
   					<div className="card">
-  						<img className="card-img-top customCardImg" src="/images/customLandscapeImages/rainBird.png" alt="" />
+  						<img className="card-img-top customCardImg" src="/images/customLandscapeImages/lawn.png" alt="" />
   						<div className="card-body">
   							<h4 className="card-title">Grass</h4>
   							<p className="card-text">Depending on personal preference and/or time of year, hydroseeding or sod will be installed.</p>
